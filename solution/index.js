@@ -26,7 +26,7 @@ module.exports = function (Homework) {
         const lastIndex = await subtract(length, 1)
         let currentItemIndex = 0
         let result = initialValue
-		let shouldContinue = await lessOrEqual(currentItemIndex, lastIndex)
+        let shouldContinue = await lessOrEqual(currentItemIndex, lastIndex)
 
         while (shouldContinue) {
             const currentItem = await getArrayItemByIndex(array, currentItemIndex)
@@ -34,7 +34,7 @@ module.exports = function (Homework) {
                 fn(result, currentItem, currentItemIndex, array, (result) => resolve(result))
             })
             currentItemIndex = await add(currentItemIndex, 1)
-			shouldContinue = await lessOrEqual(currentItemIndex, lastIndex)
+            shouldContinue = await lessOrEqual(currentItemIndex, lastIndex)
         }
 
         if (cb) {
