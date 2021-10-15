@@ -1,0 +1,27 @@
+{
+  "name": "frontendschool-autumn2021-homework4",
+  "version": "1.0.0",
+  "description": "**Домашняя работа 4**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewDekart/frontendschool-autumn2021-homework4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewDekart/frontendschool-autumn2021-homework4/issues"
+  },
+  "homepage": "https://github.com/NewDekart/frontendschool-autumn2021-homework4#readme",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
+    "prettier": "^2.4.1"
+  }
+}
